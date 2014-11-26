@@ -6,21 +6,22 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Abel|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
-<header>
+<header class="masthead island-half">
 	<div class="grid">
 
 		<div class="unit">
-			<h1>Bello</h1>
+			<h1 class="logo">Bello</h1>
 		</div>
 
 		<div class="unit">
-			<nav id="navigation" role="navigation"> 
+			<nav id="navigation" role="navigation" class="nav"> 
 				<ul>
 					<li><a href="index.html">Home </a></li>
 					<li><a href="signup.html">Sign-Up </a></li>
@@ -28,19 +29,168 @@
 				</ul>
 			</nav>	
 		</div>
-	</div>		
+
+	</div>	
 </header>
 
 <main>
 
+<form>
+	<div class="island-half grid">
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+			<h2>Personal Information</h2>
+		</div>
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+			<label for="firstname">First Name</label>
+			<input id="firstname">
+		</div>	
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+			<label for="lastname">Last Name</label>
+			<input id="lastname">
+		</div>	
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+			<label for="email">Email Address</label>
+			<input id="email" type="email">
+		</div>
+
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+			<label for="username">Username</label>
+			<input id="username" type="text">
+		</div>
+
+		<div class="unit">
+			<label for="password">Create a Password</label>
+			<input id="password" type="password">
+		</div>	
+
+		<div class="unit">
+			<label for="confirm">Confirm Password</label>
+			<input id="confirm" type="password">
+		</div>
+
+		<div class="unit">
+			<label for="url">Url</label>
+			<input id="url" type="url">
+		</div>
+	</div>	
+
+	
+	<div class="island-half grid">
+			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+				<h2>Billing</h2>
+			</div>
+
+			<div class="unit">
+				<label for="plan">Select a Plan</label>
+				<select id="plan">
+					<option selected>------</option>
+					<option>Free</option>
+					<option>Beginner</option>	
+					<option>Business</option>
+				</select>	
+			</div>	
+
+			<fieldset class="unit">
+				<legend>Payment Type</legend>
+					<input type="radio" id="creditcard">
+					<label for="creditcard">Credit Card</label>
+
+					<input type="radio" id="paypal">
+					<label for="paypal">Pay Pal</label>
+			</fieldset>		
+
+		<div class="unit">	
+			<div class="grid">
+				<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+					<h3>Billing Address</h3>
+				</div>
+		
+				<div class="unit">
+					<label for="firstname">First Name</label>
+					<input id="firstname" type="text">	
+				</div>
+		
+				<div class="unit">
+					<label for="lastname">Last Name</label>
+					<input id="lastname" type="text">
+				</div>
+		
+				<div class="unit">
+					<label for="address1">Address 1</label>
+					<input id="address 1" type="text">
+				</div>
+		
+				<div class="unit">
+					<label for="address2"> Address 2</label>
+					<input id="address2" type="text">
+				</div>			
+
+				<div class="unit">
+					<label for="city">City</label>
+					<input id="city" type="text">
+				</div>
+	
+				<div class="unit">
+					<label for="province">Province</label>
+					<select id="province">
+						<option selected>-----</option>
+						<option>Alberta</option>
+						<option>British Columbia</option>
+						<option>New Brunswick</option>
+						<option>Newfoundland & Labrador</option>
+						<option>Nova Scotia</option>
+						<option>Northwest Territories</option>
+						<option>Nunavut</option>
+						<option>Ontario</option>
+						<option>Prince Edward Island</option>
+						<option>Quebec</option>
+						<option>Saskatchewan</option>
+						<option>Yukon</option>
+					</select>	
+				</div>
+
+				<div class="unit">
+					<label for="postalcode">Postal Code</label>
+					<input id="postalcode" type="text">
+				</div>
+
+				<div class="pad-bottom unit">
+					<label for="country">Country</label>
+					<select id="country">	
+						<option selected>-----</option>
+						<option>Canada</option>
+						<option>United States of America</option>
+					</select>	
+				</div>	
+
+				<div class="unit">
+					<input type="checkbox" id="promotional">
+					<label for="promotional">Please email me monthly Bello newsletters, notices about my account, as well as promotions and special news.</label>
+				</div>	
+
+				<div>
+					<button type="submit">Sign Up</button>
+				</div>
+
+
+			</div>	
+		</div>
+	</div>
+		
+</form>
+
 <footer>
-	<div class="grid">
+	<div class="footer grid island-half">
 		<div role="contentinfo" class="unit">
-			<p> © Bello 2014 </p>
+			<p class="copyright"> © Bello 2014 </p>
 		</div>
 		
 		<div class="unit">
-			<nav>
+			<nav class="nav-bottom">
 				<ul>
 					<li> <a href="index.html">Home</a></li>	
 					<li> <a href="signup.html">Sign-Up</a></li>

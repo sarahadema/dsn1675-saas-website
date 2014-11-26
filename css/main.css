@@ -16,7 +16,208 @@ html {
 
 }
 
+@media only screen and (min-width: 60em) {
+	html {
+		font-size: 110%;
+	}
+}
+
+@media only screen and (min-width: 90em) {
+	html {
+		font-size: 120%;
+	}
+}
+
+@media only screen and (min-width: 120em) {
+	html {
+		font-size: 130%
+	}
+}
+
+*, *:before,:after {
+	box-sizing: inherit;
+} 
+
 body {
 	margin: 0;
 	padding: 0;
 }
+
+.masthead {
+	overflow: hidden;
+
+	background-color: #ddd;
+}
+.logo {
+	display: block;
+	margin: 0;
+
+	text-transform: uppercase;
+
+}
+
+.nav {
+	padding: 0;
+}
+
+.nav li {
+	display: block;		
+
+	color: #111;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: .5em;
+
+	text-decoration: none;
+	color: #111;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #efefef;
+}
+
+.action {
+	line-height: 1.5em;
+}
+
+.nav-bottom {
+	padding: 0;
+}
+
+.nav-bottom li {
+	display:block;
+	line-height: 1.5em;
+
+	color: #111;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+	display: block;
+	padding:.5em;
+
+	text-decoration: none;
+	color: #111;
+}
+
+.nav-bottom a:hover,
+.nav-bottom a:focus,
+.nav-bottom a:active {
+	background-color: #efefef;
+}
+
+.signup {
+	padding:0.25em 2em;
+
+	font-size: 1.75em;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.signup:hover {
+	background-color: #FFD700;
+}
+
+.signup:active{
+	background-color: #FFD700;
+}
+
+.trynow {
+	padding: 0.25em;
+	display: block;
+
+	font-size: 1.5em;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+
+.trynow:hover {
+	background-color: #FFD700;
+}
+
+.trynow:active {
+	background-color: #FFD700;
+}
+
+.footer {
+	overflow: hidden;
+
+	background-color: #ddd;
+}
+
+.free {
+	padding: 0em;
+	background-color: #FFD700;
+
+	overflow: hidden;
+}
+
+.personal {
+	padding: 0em;
+	background-color: #FFD700;
+
+	overflow:hidden;
+}
+
+.professional {
+	padding: 0em;
+	background-color: #FFD700;
+
+	overflow: hidden;
+}
+
+.copyright {
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 20em){
+
+.nav {
+	text-align: center;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav-bottom {
+	text-align: center;
+}
+
+.nav-bottom li {
+	display: inline-block;
+}
+
+}
+
+@media only screen and (min-width: 40em){
+
+.logo {
+	float: left;
+}
+
+.nav {
+	float: left;
+}
+
+
+}
+
+@media only screen and (min-width: 60em){
+
+}
+
+
+
+
+
+
