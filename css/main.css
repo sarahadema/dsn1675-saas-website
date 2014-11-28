@@ -114,7 +114,6 @@ a:active{
 .nav .nav-current:link,
 .nav .nav-current:visited {
 	background-color: #efefef;
-	overflow: hidden;
 }
 
 .action {
@@ -177,6 +176,7 @@ a:active{
 .trynow {
 	padding: 0.25em;
 	display: block;
+	width: 60%;
 
 	background-color: #efefef;
 	font-size: 1.5em;
@@ -230,7 +230,9 @@ a:active{
 	 
 }
 
-
+.features {
+	text-transform: uppercase;
+}
 
 @media only screen and (min-width: 20em){
 
