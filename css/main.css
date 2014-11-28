@@ -75,7 +75,8 @@ a:active{
 
 .call {
 	background-image: url("../images/studio.jpg");
-	background-color: #e1e1e1;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .logo {
@@ -128,7 +129,7 @@ a:active{
 	display:block;
 	line-height: 1.5em;
 
-	color: #111;
+	color: #fff;
 }
 
 .nav-bottom a,
@@ -138,7 +139,7 @@ a:active{
 	padding:.5em;
 
 	text-decoration: none;
-	color: #111;
+	color: #fff;
 }
 
 .nav-bottom a:hover,
@@ -152,6 +153,11 @@ a:active{
 .links {
 	text-decoration: none;
 	color: #fff;
+}
+
+.logolinks {
+	text-decoration: none;
+	color: #fffl;
 }
 
 .signup {
@@ -206,7 +212,7 @@ a:active{
 .footer {
 	overflow: hidden;
 
-	background-color: #ddd;
+	background-color: #111;
 }
 
 .free {
@@ -233,10 +239,7 @@ a:active{
 .copyright {
 	text-transform: uppercase;
 	text-align: center;
-}
-
-.blogreview {
-	 
+	color: #fff;
 }
 
 .features {
@@ -245,6 +248,11 @@ a:active{
 .pricing {
 	text-decoration: none;
 	color: #111;
+}
+
+.flex{
+	display: block;
+	width: 75%;
 }
 
 @media only screen and (min-width: 20em){
