@@ -233,6 +233,10 @@ a:active{
 .features {
 	text-transform: uppercase;
 }
+.pricing {
+	text-decoration: none;
+	color: #111;
+}
 
 @media only screen and (min-width: 20em){
 
