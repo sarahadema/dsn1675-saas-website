@@ -149,6 +149,10 @@ a:active{
 .nav-bottom .nav-current:visited {
 	background-color: #efefef;
 }
+.links {
+	text-decoration: none;
+	color: #fff;
+}
 
 .signup {
 	padding:0.25em;
@@ -157,20 +161,24 @@ a:active{
 	text-transform: uppercase;
 	text-align: center;
 	text-decoration: none;
-	background-color: #efefef;
+	color: #fff;
+
+	background-color: #FFD700;
 	border: none;
 	float: right;
 	clear:right;
-	width: 60%;
+	width: 100%;
 	cursor: pointer;
 }
 
 .signup:hover {
 	background-color: #FFD700;
+	color: #fff;
 }
 
 .signup:active{
 	background-color: #FFD700;
+	color: #fff;
 }
 
 .trynow {
@@ -178,7 +186,7 @@ a:active{
 	display: block;
 	width: 100%;
 
-	background-color: #efefef;
+	background-color: #FFD700;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -255,6 +263,10 @@ a:active{
 
 .nav-bottom li {
 	display: inline-block;
+}
+
+.signup {
+	width: 60%;
 }
 
 }
