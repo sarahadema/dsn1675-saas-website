@@ -161,7 +161,7 @@ a:active{
 	border: none;
 	float: right;
 	clear:right;
-	width: 50%
+	width: 35%;
 	cursor: pointer;
 }
 
@@ -176,7 +176,7 @@ a:active{
 .trynow {
 	padding: 0.25em;
 	display: block;
-	width: 60%;
+	width: 100%;
 
 	background-color: #efefef;
 	font-size: 1.5em;
@@ -224,6 +224,7 @@ a:active{
 
 .copyright {
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .blogreview {
