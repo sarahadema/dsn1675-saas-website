@@ -56,7 +56,7 @@ a:active{
 
 .skip-links a{
 	position: absolute;
-	top: -3em;
+	top: -10em;
 	padding: 0.5em 0.75em;
 	background-color: #000;
 	color: #fff;
@@ -74,7 +74,7 @@ a:active{
 }
 
 .call {
-	background-image: url("../images/studio.jpg");
+	background-image: url("../images/mac.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -119,6 +119,8 @@ a:active{
 
 .action {
 	line-height: 1.5em;
+	font-size: 3.5rem;
+	text-transform: uppercase;
 }
 
 .nav-bottom {
@@ -150,6 +152,7 @@ a:active{
 .nav-bottom .nav-current:visited {
 	background-color: #efefef;
 }
+
 .links {
 	text-decoration: none;
 	color: #fff;
@@ -157,7 +160,7 @@ a:active{
 
 .logolinks {
 	text-decoration: none;
-	color: #fffl;
+	color: #111;
 }
 
 .signup {
@@ -171,8 +174,8 @@ a:active{
 
 	background-color: #FFD700;
 	border: none;
-	float: right;
-	clear:right;
+	float: left;
+	clear:left;
 	width: 100%;
 	cursor: pointer;
 }
@@ -217,9 +220,12 @@ a:active{
 
 .free {
 	padding: 0em;
+	margin: 0 0.5em 0 0;
 	background-color: #FFD700;
 
-	overflow: hidden;
+
+	text-transform: uppercase;
+	width: 100%;
 }
 
 .personal {
@@ -227,6 +233,9 @@ a:active{
 	background-color: #FFD700;
 
 	overflow:hidden;
+
+	text-transform: uppercase;
+	width: 100%;
 }
 
 .professional {
@@ -234,11 +243,14 @@ a:active{
 	background-color: #FFD700;
 
 	overflow: hidden;
+
+	text-transform: uppercase;
+	width: 100%;
 }
 
 .copyright {
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 	color: #fff;
 }
 
@@ -253,6 +265,40 @@ a:active{
 .flex{
 	display: block;
 	width: 75%;
+}
+
+.black {
+	background-color: #111;
+}
+
+.white {
+	color: #fff;
+}
+
+.plans {
+	background-color: #111;
+	color: #fff;
+	text-transform: uppercase;
+
+	padding: 0.25em;
+	margin: 0;
+}
+
+.review {
+	background-color: #111;
+	color: #fff;
+	text-transform: uppercase;
+
+	padding: 0.25em;
+}
+
+.blog-name{
+	background-color: #111;
+	color: #fff;
+	text-transform: uppercase;
+
+	padding: 0.25em;
+	margin: 0;
 }
 
 @media only screen and (min-width: 20em){
