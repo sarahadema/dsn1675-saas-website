@@ -121,21 +121,12 @@ a:active{
 	color: #111;
 }
 
-.action {
-	line-height: 1.5em;
-	font-size: 3.5rem;
-	text-transform: uppercase;
-
-	color: #fff;
-}
-
 .nav-bottom {
 	padding: 0;
 }
 
 .nav-bottom li {
 	display:block;
-	line-height: 1.5em;
 
 	color: #fff;
 }
@@ -157,6 +148,25 @@ a:active{
 .nav-bottom .nav-current:link,
 .nav-bottom .nav-current:visited {
 	background-color: #efefef;
+
+	color: #111;
+}
+
+
+.action {
+	line-height: 1.5em;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+
+	color: #fff;
+}
+
+
+.second-action {
+	line-height: 1.5em;
+	font-size: 3.5rem;
+
+	color: #fff;
 }
 
 .links {
@@ -231,6 +241,7 @@ a:active{
 
 
 	text-transform: uppercase;
+	text-align: center;
 	width: 100%;
 }
 
@@ -241,16 +252,18 @@ a:active{
 	overflow:hidden;
 
 	text-transform: uppercase;
+	text-align: center;
 	width: 100%;
 }
 
-.professional {
+.pro {
 	padding: 0em;
 	background-color: #FFD700;
 
 	overflow: hidden;
 
 	text-transform: uppercase;
+	text-align: center;
 	width: 100%;
 }
 
@@ -358,15 +371,16 @@ a:active{
 }
 
 .enter-info {
-	width: 100%;
+	background-color: #fff;
+	border: 1px solid #111;
+	display: block;
 
-	border: 1px solid #fff;
+	width: 100%;
 }
 
-.enter-info {
-	background-color: #fff;
-
-	border: 1px solid #111;
+.labels {
+	width: 100%;
+	display: block;
 }
 
 .signup-sections {
@@ -375,6 +389,10 @@ a:active{
 
 	margin: 0;
 	padding: 0;
+}
+
+.rate {
+	color: #111;
 }
 
 @media only screen and (min-width: 20em){
@@ -413,9 +431,25 @@ a:active{
 	float: right;
 }
 
+.nav-bottom {
+	float: right;
+}
+
 .signup,
 .sign-in {
 	width: 30%;
+}
+
+.enter-info {
+	background-color: #fff;
+	border: 1px solid #111;
+
+	width:80%;
+}
+
+.labels {
+	float: left;
+	width:80%;
 }
 
 
