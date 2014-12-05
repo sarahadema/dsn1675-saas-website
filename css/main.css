@@ -74,7 +74,7 @@ a:active{
 }
 
 .call {
-	background-image: url("../images/mac.jpg");
+	background-image: url("../images/home-office.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -86,6 +86,8 @@ a:active{
 	text-transform: uppercase;
 	text-align: center;
 
+	color: #fff;
+
 }
 
 .nav {
@@ -95,7 +97,7 @@ a:active{
 .nav li {
 	display: block;	
 
-	color: #111;
+	color: #fff;
 }
 
 .nav a,
@@ -105,7 +107,7 @@ a:active{
 	padding: .5em;
 
 	text-decoration: none;
-	color: #111;
+	color: #fff;
 }
 
 .nav a:hover,
@@ -115,12 +117,16 @@ a:active{
 .nav .nav-current:link,
 .nav .nav-current:visited {
 	background-color: #efefef;
+
+	color: #111;
 }
 
 .action {
 	line-height: 1.5em;
 	font-size: 3.5rem;
 	text-transform: uppercase;
+
+	color: #fff;
 }
 
 .nav-bottom {
@@ -172,7 +178,7 @@ a:active{
 	text-decoration: none;
 	color: #fff;
 
-	background-color: #FFD700;
+	background-color: #111;
 	border: none;
 	float: left;
 	clear:left;
@@ -292,13 +298,83 @@ a:active{
 	padding: 0.25em;
 }
 
+.review-img {
+	width: 100%;
+}
+
 .blog-name{
-	background-color: #111;
-	color: #fff;
+	background-color: #fff;
+	color: #111;
 	text-transform: uppercase;
 
 	padding: 0.25em;
 	margin: 0;
+}
+
+.underline {
+	border: 0;
+	height: 5px;
+	background-color: #111;
+}
+
+.sign-in {
+	padding:0.25em;
+
+	font-size: 1.75em;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+
+	background-color: #FFD700;
+	border: none;
+	float: left;
+	clear:left;
+	width: 100%;
+	cursor: pointer;
+}
+
+.sign-in:hover {
+	background-color: #FFD700;
+	color: #fff;
+}
+
+.sign-in:active{
+	background-color: #FFD700;
+	color: #fff;
+}
+
+.started {
+	padding: 0;
+	text-transform: uppercase;
+
+	background-color: #111;
+	color: #fff;
+}
+
+.billing {
+	background-color: #fff;
+	color: #111;
+}
+
+.enter-info {
+	width: 100%;
+
+	border: 1px solid #fff;
+}
+
+.enter-info {
+	background-color: #fff;
+
+	border: 1px solid #111;
+}
+
+.signup-sections {
+	background-color: #111;
+	color: #fff;
+
+	margin: 0;
+	padding: 0;
 }
 
 @media only screen and (min-width: 20em){
@@ -319,9 +395,11 @@ a:active{
 	display: inline-block;
 }
 
-.signup {
+.signup,
+.sign-in {
 	width: 60%;
 }
+
 
 }
 
@@ -332,12 +410,15 @@ a:active{
 }
 
 .nav {
-	float: left;
+	float: right;
 }
 
-.signup {
-	width: 40%;
+.signup,
+.sign-in {
+	width: 30%;
 }
+
+
 
 }
 
