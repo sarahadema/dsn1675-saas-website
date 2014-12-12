@@ -160,14 +160,13 @@ a:active{
 .nav-bottom a:hover,
 .nav-bottom a:focus,
 .nav-bottom a:active,
-.nav-bottom .nav-current.
+.nav-bottom .nav-current,
 .nav-bottom .nav-current:link,
 .nav-bottom .nav-current:visited {
 	background-color: #efefef;
 
 	color: #111;
 }
-
 
 .action {
 	line-height: 1em;
@@ -177,7 +176,6 @@ a:active{
 
 	color: #fff;
 }
-
 
 .second-action {
 	line-height: 1em;
@@ -231,7 +229,7 @@ a:active{
 	border: none;
 	float: left;
 	clear:left;
-	width: 100%;
+	width: 80%;
 	cursor: pointer;
 }
 
@@ -321,7 +319,7 @@ a:active{
 
 .flex{
 	display: block;
-	width: 50%;
+	width: 50%
 }
 
 .black {
@@ -440,7 +438,7 @@ a:active{
 
 .signup,
 .sign-in {
-	width: 50%;
+	width: 20%;
 }
 
 .enter-info {
